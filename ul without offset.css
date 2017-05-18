@@ -1,0 +1,33 @@
+
+/*html*/
+/*
+<div class="navBackground">
+	<div class="navContainer">
+		<ul class="navList">
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</div>
+*/
+
+/*makes the list to not have initial offset on the left side*/
+.navList{
+	margin:0;
+	padding: 0;
+  	max-width:765px;
+    list-style-type:none;
+    background-color: #13bdd2;
+}
+
+/*this one makes content have still offset on the both sides of the page*/
+.navContainer{
+	margin-left:auto;
+  	margin-right:auto;
+  	max-width:765px;
+    background-color: #13bdd2;
+}
+/*this is to make the background looks like its actualy wider than it is*/
+.navBackground{
+	background-color: #13bdd2;
+}
