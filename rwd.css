@@ -1,0 +1,23 @@
+/*html*/
+
+/*
+	<div class="mainContainer">
+		<div class="block">
+			<span>some content</span>
+		</div>
+	</div>
+*/
+
+
+.mainContainer{
+	width: 200px;
+	margin-left:100px;
+}
+
+@media screen and (max-width: 480px) {
+	.mainContainer{
+		width:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
