@@ -1,0 +1,15 @@
+/*css*/
+
+#wideLogo{
+  display:initial;
+  visibility:visible;
+}
+
+@media screen and (max-width: 700px) {
+
+  #wideLogo{
+    visibility:hidden;
+    display:none;
+  }
+
+}
