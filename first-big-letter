@@ -1,0 +1,7 @@
+p:first-letter{
+    display:block;
+    float:left;
+    margin:3px;
+    color:#f00;
+    font-size:300%;
+}
