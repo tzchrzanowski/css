@@ -1,0 +1,5 @@
+.shape {
+  width: 300px;
+  float: left;
+  shape-outside: circle(50%);
+}
